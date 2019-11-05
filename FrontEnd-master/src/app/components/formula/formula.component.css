@@ -1,0 +1,79 @@
+
+#toolbar-container{
+    width: 95%;
+    margin-left: 2%;
+}
+
+#table-container{
+    width: auto;
+    margin-left: 2%;
+    height: 80vh;
+    overflow: scroll;
+}
+#links-container{
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    height:20vh;
+}
+
+#links-container a{
+    padding: 2%;
+    text-decoration: none;
+}
+
+#link-container button{
+    padding: 2%;
+}
+
+table{
+    width: 100%;
+    /* background-color: white;
+    color: black; */
+    margin-left: 2%;
+    background-color: white;
+    color : black;
+    border: 2px solid grey;
+}
+
+mat-toolbar{
+    width: inherit;
+    margin-left:2%;
+    background-color: grey;
+}
+
+td.mat-cell{
+    color: black;
+}
+th.mat-header-cell{
+    color: black;
+    background-color: lightgrey;
+    border-right: 1px solid grey;
+    text-align: center;
+    width: 400px;
+}
+.mat-button, .mat-flat-button, .mat-icon-button, .mat-stroked-button{
+    background-color: orangered;
+    color: white;
+    float : right;
+}
+
+a:hover{
+    cursor: pointer;
+}
+input{
+    border: none;
+    height: inherit;
+    font-size: 16px;
+}
+#links-container a:visited{
+    text-decoration: none;
+    color: blue;
+}
+td.mat-cell:first-of-type{
+    padding-left: 10px;
+}
+td.mat-cell{
+    height: inherit;
+    padding-left: 10px;
+}

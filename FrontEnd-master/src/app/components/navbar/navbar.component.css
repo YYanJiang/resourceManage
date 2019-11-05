@@ -1,0 +1,43 @@
+mat-sidenav{
+    background-color: black; 
+    color:white;
+    width: 20%;
+    padding: 0;
+    margin: 0; 
+}
+
+mat-sidenav-container{
+    height: 100%;
+    border: none;
+}
+
+mat-sidenav-content{
+    color: black;
+    background-color: white;
+    justify-content: center;
+}
+
+a{
+    color:white;
+}
+
+button{
+    background-color :black;
+    color : white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 65px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+button:focus, button:active, button:focus:active{
+    background-image: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+a:active{
+    color: orange;
+}
